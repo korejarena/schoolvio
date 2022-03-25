@@ -1,0 +1,12 @@
+Package: schoolvio
+Type: Package
+Title: Shooting Incidents at K-12 Schools 1970-Present
+Version: 0.1.0
+Author: Kevin Jimenez Orejarena
+Maintainer: <kevinjimenez@usf.edu>
+Description: Dataset published by Center for Homeland Defense and Security.
+    Data contains number of shooting incidents per year, number of victims,
+    location, time period, and many other variables.
+License: CC0-1.0
+Encoding: UTF-8
+LazyData: true
