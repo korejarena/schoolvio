@@ -1,0 +1,28 @@
+---
+title: "schoolvio FAQ"
+author: "Kevin Jimenez Orejarena"
+date: "4/10/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Schoolvio FAQ
+
+### 1. Data source?
+
+> *This dataset was published by the Center for Homeland Defense and Security. Data contains number of shooting incidents per year, number of victims, location, time period, and many other variables.*
+
+### 2. Overall goal?
+
+> *To use different methods of analysis to find trends or common variables linking the data together, and visualize them on a map.*
+
+### 3. Additional libraries needed?
+
+> *Not needed, but some functions plotting the dataset may use ggplot2 or other plotting libraries. They will be included in the code.*
+
+### 4. Problem with code?
+
+> *Send a ticket through my GitHub repository. I'll look at the ticket at my earliest convenience, or hopefully someone else can solve the issue there.*
