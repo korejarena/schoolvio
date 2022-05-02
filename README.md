@@ -5,10 +5,15 @@ schoolvio contains cleaned and uncleaned tibble datasets for analytical purposes
 Listed below are the datasets provided by the R package.
 
 schoolvio - Cleaned Master Dataset
+
 svioid - Cleaned Incident Report Dataset
+
 svioshooter - Cleaned Shooter Dataset
+
 sviovictim - Cleaned Victim Dataset
+
 svioweapon - Cleaned Weapon Dataset
+
 svioraw - Raw uncleaned dataset
 
 ## References 
