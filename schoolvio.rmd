@@ -1,0 +1,43 @@
+---
+title: "Schoolvio RMD"
+author: "Kevin Jimenez Orejarena"
+date: "5/1/2022"
+output: html_document
+---
+
+Dependencies (library messages intentionally suppressed):
+```{r message=FALSE}
+require(readxl)
+require(devtools)
+```
+
+Data input:
+```{r}
+#Cleaned Master Dataset
+schoolvio <- read_excel("data/schoolviomaster.xlsx")
+
+#Incident Dataset
+svioid <- read_excel("data/schoolvio_id.xlsx")
+
+#Shooter Dataset
+svioshooter <- read_excel("data/schoolvio_shooter.xlsx")
+
+#Victim Dataset
+sviovictim <- read_excel("data/schoolvio_victim.xlsx")
+
+#Weapon Dataset
+svioweapon <- read_excel("data/schoolvio_weapon.xlsx")
+
+#Raw Dataset
+svioraw <- read_excel("data/schoolvio_raw.xlsx")
+```
+
+Devtools data input:
+```{r message=FALSE}
+use_data(schoolvio, overwrite = TRUE)
+use_data(svioid, overwrite = TRUE)
+use_data(svioshooter, overwrite = TRUE)
+use_data(sviovictim, overwrite = TRUE)
+use_data(svioweapon, overwrite = TRUE)
+use_data(svioraw, overwrite = TRUE)
+```
